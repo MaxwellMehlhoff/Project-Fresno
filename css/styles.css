@@ -1,0 +1,201 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    background-color: rgba(123,155,166,.8);
+    z-index: 1;
+}
+
+.logo {
+    width: 80px;
+    padding: 5px;
+}
+
+.nav-list {
+    float: right;
+    margin-right: 20px;
+    margin-top: 25px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.list-item {
+    display: inline-block;
+    margin: 10px;
+    color: gold;
+    font-size: 20px;
+/*    list-style-type: none;
+    text-decoration: none;    */
+}
+
+.list-item:hover {
+    color: darkgoldenrod;
+}
+
+/* End of Nav */
+
+.hero-img {
+    width: 100%;
+    height: 1000px;
+    margin-top: -70px;
+    background-image: url("../images/Fresno Landscape.jpg");
+}
+
+.hero-text-box {
+    height: 100px;
+    width: 500px;
+    padding-top: 670px;
+}
+
+.hero-text {
+    font-family: 'Monoton', cursive;
+    color: goldenrod;
+    font-size: 75px;
+    padding: 5px;
+    margin-left: 25px;
+}
+
+/* End of Main */
+
+section {
+    width: auto;
+    height: 995px;
+    background-color: lightgray;
+}
+
+.one {
+    position: relative;
+}
+
+.home-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 1s ease;
+    background-color: rgba(123,155,166,.8);
+}
+
+.overlay-text {
+    color: rgb(0,32,105);
+    font-size: 100px;
+    font-family: 'Monoton', cursive;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.one:hover .home-overlay {
+    opacity: 1;
+}
+
+.home-img {
+    width: 100%;
+}
+
+.sec-box {
+    border: 20px outset rgba(123,155,166,.8);
+    width: 45%;
+    height: 911px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.home-text {
+    margin: 10px;
+    display: block;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+    color: rgb(0,32,105);
+}
+
+/* End of Section */
+
+footer {
+    width: 100%;
+    height: 70px;
+    background-color: goldenrod;
+    float: left;
+}
+
+.copy-right, .social, .input {
+    /* display: inline-block; */
+    width: 33%;
+    text-align: center;
+    float: left;
+}
+
+.copy-right {
+    color: rgb(0,32,105);
+    font-size: 18px;
+    font-family: 'Bebas Neue', cursive;
+    /* float: left; */
+  }
+
+.input {
+    margin-top: 15px;
+}
+
+.fab {
+    font-size: 2em;
+    padding: 5px;
+    margin-top: 13px;
+}
+
+.fa-facebook-square {
+    color: rgb(58,85,159);
+}
+
+.fa-instagram {
+    color: rgb(164,67,173);
+}
+
+.fa-twitter-square {
+    color: rgb(29,161,242);
+}
+
+/* footer {
+    margin-top: 18px;
+    height: 70px;
+    display: inline-block;
+    width: 100%;
+    background-color: goldenrod;
+  }
+  
+  .copy-right {
+    color: rgb(0,32,105);
+    font-size: 18px;
+    font-family: 'Bebas Neue', cursive;
+  }
+  
+  .copy-right, .footer-img, input {
+    display: block;
+    margin: auto;
+    margin-top: 7px;
+    text-align: center;
+  }
+  
+  .box {
+    float: left;
+    width: 33%;
+  }
+
+  .footer-img {
+      width: 75px;
+  } */
+
+  /* End of Footer */

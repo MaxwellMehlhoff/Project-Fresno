@@ -1,0 +1,44 @@
+.container {
+    height: 900px;
+    width: 100%
+}
+
+.about-box {
+    width: 27.5%;
+    height: 750px;
+    border: 20px outset rgba(123,155,166,.8);
+    float: left;
+    margin-top: 90px;
+    margin-left: 35px;
+    font-family: 'Bebas Neue', cursive;
+    color:rgb(0,32,105);
+}
+
+.container-img {
+    display: block;
+    margin-top: 20px;
+    width: 380px;
+    margin-left: 20px
+}
+
+/* .container-img:hover {
+
+} */
+
+.lightsaber-audio {
+    /* padding-right: 75px;
+    padding-left: 60px;
+    padding-top: 20px; */
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.sierra-video {
+    display: block;
+    margin-left: 21px; 
+}
+
+.container-p {
+    margin: 20px;
+}

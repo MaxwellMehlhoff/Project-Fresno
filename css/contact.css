@@ -1,0 +1,30 @@
+section {
+    height: 1300px;
+}
+
+.contact-map {
+    display: block;
+    margin-left: 120px;
+    float: left;
+    margin-top: 110px;
+    border: 20px outset rgba(123,155,166,.8);
+}
+
+.contact-form {
+    display: block;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+/* .contact-form, .contact-map {
+    position: relative;
+    top: 125px;
+    left: 30%;
+    border: 3px solid black
+} */
+
+/* .contact-container {
+    position: relative;
+    height: 1100px;
+    width: 100%;
+} */
