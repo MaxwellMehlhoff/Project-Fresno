@@ -9,7 +9,6 @@ body {
     position: fixed;
     top: 0;
     /* background-color: rgba(123,155,166,.8); */
-    background-color: red;
     z-index: 1;
 }
 
@@ -88,7 +87,7 @@ section {
 
 .overlay-text {
     color: rgb(0,32,105);
-    font-size: 100px;
+    font-size: 75px;
     font-family: 'Monoton', cursive;
     position: absolute;
     top: 50%;
